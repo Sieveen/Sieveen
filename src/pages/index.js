@@ -19,7 +19,7 @@ export default function Home() {
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/tc.jpg" alt="Peaky Blinders" width={540} height={540} layout="responsive"/>
+          <Image src="/tc.jpg" alt="The Choice" width={540} height={540} layout="responsive"/>
         </div>
 
         <div className={styles.form_body}>
@@ -39,7 +39,7 @@ export default function Home() {
           <div className={styles.form_data}>
             <div className={styles.google} onClick={handleNextPage}>
               <div>
-                <Image src="/google.svg" alt="Peaky Blinders" width={24} height={24} />
+                <Image src="/google.svg" alt="The Choice" width={24} height={24} />
               </div>
 
               <span>
@@ -49,7 +49,7 @@ export default function Home() {
 
             <div className={styles.facebook} onClick={handleNextPage}>
               <div>
-                <Image src="/facebook.svg" alt="Peaky Blinders" width={24} height={24} />
+                <Image src="/facebook.svg" alt="The Choice" width={24} height={24} />
               </div>
 
               <span>
@@ -58,7 +58,7 @@ export default function Home() {
             </div>
             <div className={styles.instagram} onClick={handleNextPage}>
               <div>
-                <Image src="/instagram.svg" alt="Peaky Blinders" width={24} height={24} />
+                <Image src="/instagram.svg" alt="The Choice" width={24} height={24} />
               </div>
 
               <span>
@@ -73,7 +73,7 @@ export default function Home() {
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+          © 2023 The Choice
         </span>
       </div>
 
