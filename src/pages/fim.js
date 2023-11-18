@@ -12,7 +12,7 @@ export default function Home() {
 
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/tc.jpg" alt="Peaky Blinders" width={540} height={540} layout="responsive"/>
+          <Image src="/tc.jpg" alt="The Choice" width={540} height={540} layout="responsive"/>
         </div>
 
         <div className={styles.form_body}>
@@ -32,7 +32,7 @@ export default function Home() {
 
       <div>
         <span className={styles.copy}>
-          © 2023 Peaky Blinders
+          © 2023 The Choice
         </span>
       </div>
 
