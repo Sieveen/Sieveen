@@ -17,22 +17,23 @@ export default function Home() {
   return (
     <div className={`${styles.container} ${inter.className}`}>
 
-      <div>
-        <Image src="/logo.svg" alt="Peaky Blinders" width={152} height={48} />
-      </div>
-
       <div className={styles.form}>
         <div className={styles.form_header}>
-          <Image src="/hero.png" alt="Peaky Blinders" width={540} height={263} />
+          <Image src="/tc.jpg" alt="Peaky Blinders" width={540} height={540} layout="responsive"/>
         </div>
 
         <div className={styles.form_body}>
           <div className={styles.form_content}>
             <h2 className={averia.className}>
-              Você ganhou um combo de Whisky Grátis em comemoração ao lançamento do filme! Resgate agora!
+              LEIA ABAIXO COM ATENÇÃO!
             </h2>
-
-            <p>Promoção exclusiva para o Shopping Iguatemi São Paulo.</p>
+            
+            <h5 className={averia.className}>
+            Cadastre-se agora e receba 90% de desconto no seu ingresso.
+            Entre com o Instagram, para fazer parte da lista VIP e recebe o cupom mais rápido.
+            Não perca a chance de viver uma noite incrível. Cadastre-se abaixo para garantir seu desconto especial.
+            </h5>
+            <p>Promoção exclusiva para The Choice Curitiba.</p>
           </div>
 
           <div className={styles.form_data}>
@@ -55,6 +56,16 @@ export default function Home() {
                 Fazer login com o Facebook
               </span>
             </div>
+            <div className={styles.instagram} onClick={handleNextPage}>
+              <div>
+                <Image src="/instagram.svg" alt="Peaky Blinders" width={24} height={24} />
+              </div>
+
+              <span>
+                Fazer login com o Instagram
+              </span>
+            </div>
+
             <span className={styles.terms}>Ao resgatar você concorda com os Termos de Uso</span>
           </div>
         </div>
@@ -67,5 +78,8 @@ export default function Home() {
       </div>
 
     </div>
+    
   )
+  
 }
+
